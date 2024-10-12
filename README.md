@@ -1,17 +1,15 @@
 # DRAW&GUESS
 A web game to play with friends
-&nbsp;
+
 ##### Video Demo
 [https://youtu.be/ZKGPeSmEnzQ](https://youtu.be/ZKGPeSmEnzQ)
 
-&nbsp;
-##### Year
-2022
-
-&nbsp;
 ##### Description
 DnG is a web game in which friends can play together, making drawings of words and then guessing the meaning of the drawings. It can be played both on mobile and desktop, by an odd number of people. The backend is implemented with Django and the frontend with React.js.
 Made as final project for 'Web Programming with Python and JavaScript' course, held by HarvardX.
+
+##### Year
+2022
 
 $~~~~~~~~~~~$\
 $~~~~~~~~~~~$
