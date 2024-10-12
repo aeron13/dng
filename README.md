@@ -1,14 +1,17 @@
 # DRAW&GUESS
 A web game to play with friends
 
-##### Video Demo
-[https://youtu.be/ZKGPeSmEnzQ](https://youtu.be/ZKGPeSmEnzQ)
+$~~~~~~~~~~~$\
+$~~~~~~~~~~~$
 
-##### Description
+#### Description
 DnG is a web game in which friends can play together, making drawings of words and then guessing the meaning of the drawings. It can be played both on mobile and desktop, by an odd number of people. The backend is implemented with Django and the frontend with React.js.
 Made as final project for 'Web Programming with Python and JavaScript' course, held by HarvardX.
 
-##### Year
+#### Video Demo
+[https://youtu.be/ZKGPeSmEnzQ](https://youtu.be/ZKGPeSmEnzQ)
+
+#### Year
 2022
 
 $~~~~~~~~~~~$\
@@ -63,12 +66,12 @@ $~~~~~~~~~~~$
 
 
 # Frontend
-```/dng-frontend```
+```/frontend```
 
 The front-end is build as a single-page application, using React. The static files that get served when the application runs are stored in the ```build``` folder, which is only the result of React build process and not the files I actually wrote to implement the application. For this reason, I committed also the other files which are not necessary to run the application, just for the purpose of showing how it was implemented.
 
 ### The components
-```/dng-frontend/src```
+```/frontend/src```
 
 $~~~~~~~~~~~$
 
@@ -77,7 +80,7 @@ the main file where the session state is initialized. It works as a switch betwe
 
 $~~~~~~~~~~~$
 
-```/dng-frontend/src/pages```
+```/frontend/src/pages```
 Each file corresponds to a phase in the game.
 
 #### Intro
@@ -98,7 +101,7 @@ when the game ends, the winner’s name is displayed (if there is one) along wit
 
 $~~~~~~~~~~~$
 
-```/dng-frontend/components/game```
+```/frontend/components/game```
 As stated, the game takes 1 or more turns to complete. Each turn has two distinct phases:
 
 

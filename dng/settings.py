@@ -56,7 +56,7 @@ ROOT_URLCONF = 'dng.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [ BASE_DIR / 'dng-frontend' ],
+        'DIRS': [ BASE_DIR / 'frontend' ],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
@@ -122,7 +122,7 @@ STATIC_URL = '/dist/'
 # Extra places for collectstatic to find static files.
 STATIC_ROOT = BASE_DIR / 'staticfiles'
 STATICFILES_DIRS = [
-    BASE_DIR / 'dng-frontend/build',
+    BASE_DIR / 'frontend/build',
 ]
 
 # Default primary key field type

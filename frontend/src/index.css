@@ -1,0 +1,144 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.text-xl {
+  line-height: 1.3;
+}
+
+.button-xl {
+  padding: 14px 28px;
+  text-align: center;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+  width: fit-content;
+}
+
+.button {
+  padding: 13px 15px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  color: #302B2B;
+}
+
+.button.bg-dark {
+  color: #fff;
+  font-weight: 300;
+}
+
+.button-sm {
+  padding: 13px 10px;
+  font-family: 'Courier';
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 18px;
+  text-decoration-line: underline;
+  color: #302B2B;
+}
+
+label,
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+input,
+textarea,
+select,
+a {
+  color: #302B2B;
+}
+
+form label {
+  font-family: 'Courier';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 25px;
+  max-width: 60%;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  max-width: 916px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+form input[type='text'],
+select {
+  border: 1px solid #302B2B;
+  padding: 10px 10px;
+  background-color: #fff;
+  width: 100%;
+}
+
+form input::placeholder {
+  color: rgb(98 141 217);
+}
+
+form .form-el {
+  display: flex;
+  flex-direction: column;
+}
+
+form .form-el label {
+  margin-bottom: 15px;
+}
+
+@media (min-width: 1024px) {
+  .mx-5 {
+    max-width: 1024px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+.center-x {
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.triangle {
+  background-image: url('../public/img/triangle-yellow.svg');
+  background-size: cover;
+  background-position: right top;
+  background-repeat: no-repeat;
+}
+
+.drawing-wrapper {
+  height: calc(100vh - 80px);
+}
+
+.shape-sky svg {
+  fill: #A6FAFF;
+}
+
+.shape-orange svg {
+  fill: #FFC8A0;
+}
+
+.shape-yellow svg {
+  fill: #FFFA8F;
+}
+
+.shape-green svg {
+  fill: #BCFF93;
+}
+
+.shape-blue svg {
+  fill: #628DD9;
+}
+
+.shape-purple svg {
+  fill: #E3B6FF;
+}
